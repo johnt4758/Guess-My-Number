@@ -51,7 +51,7 @@ public class App
             {
                 System.out.println("Good job, " + playerName + "! You guessed my number in " + i + " guesses!");
                 System.out.println("would you like to play again? (y or n)");
-                String continuing = inputScanner.nextLine();
+                String continuing = inputScanner.next();
                 if(continuing.equals("n"))
                 {
                     break;
@@ -59,6 +59,7 @@ public class App
                 else if(continuing.equals("y"))
                 {
                     System.out.println("Sorry that isn't implemented yet");
+                    break;
                 }
             }
 
